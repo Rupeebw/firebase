@@ -1,0 +1,7 @@
+{
+  "name": "chatgpt-clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
