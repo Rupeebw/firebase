@@ -1,0 +1,27 @@
+ion-content {
+    --background: #f6f7f8;
+  }
+  
+  ion-item {
+    --background: white;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+  
+  ion-footer ion-toolbar {
+    --background: #f6f7f8;
+  }
+  
+  ion-input {
+    --padding-start: 10px;
+    --padding-end: 10px;
+  }
+
+  .mic-button {
+    --ion-color-primary: #007aff; /* Or any color you prefer */
+    --ion-color-primary-contrast: #fff;
+    --ion-color-primary-shade: #0062cc;
+    --ion-color-primary-tint: #3385ff;
+    font-size: 1.2em;
+    margin-right: 10px;
+  }

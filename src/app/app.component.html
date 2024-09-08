@@ -1,3 +1,24 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>ChatGPT Clone</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <ion-item *ngFor="let message of messages">
+        {{ message.text }}
+      </ion-item>
+    </ion-list>
+    <ion-footer>
+      <ion-toolbar>
+        <ion-item>
+          <ion-input [(ngModel)]="newMessage" placeholder="Type or speak your message"></ion-input>
+            <ion-icon name="mic-outline"></ion-icon>
+          <ion-button (click)="sendMessage()" color="primary">Send</ion-button>
+        </ion-item>
+      </ion-toolbar>
+    </ion-footer>
+  </ion-content>
 </ion-app>
